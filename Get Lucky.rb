@@ -1,3 +1,5 @@
+#'Get Lucky' for Motorbike Helmet demo 
+
 2.times do
 use_synth :tb303
   use_synth_defaults release: 0.25, attack: 0.5, cutoff: 100

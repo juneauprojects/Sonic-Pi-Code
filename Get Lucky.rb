@@ -1,8 +1,11 @@
 #'Get Lucky' for Motorbike Helmet demo 
 
-2.times do
 use_synth :tb303
   use_synth_defaults release: 0.25, attack: 0.5, cutoff: 100
+
+1.times do
+#use_synth :tb303
+  #use_synth_defaults release: 0.25, attack: 0.5, cutoff: 100
   play chord(:A3, :minor)
   sleep 2
   play chord(:C4, :major) 
@@ -14,8 +17,8 @@ use_synth :tb303
   end
 
 in_thread do
-  use_synth :tb303
-  use_synth_defaults release: 0.25, attack: 0.5, cutoff: 100
+  #use_synth :tb303
+  #use_synth_defaults release: 0.25, attack: 0.5, cutoff: 100
   loop do
   play chord(:A3, :minor)
   play :A2
